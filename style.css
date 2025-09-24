@@ -1,21 +1,35 @@
-body {
-    font-family: National Park;
-
-    color: orange;
+body{
+    color: #F3FCEA;
     padding: 3rem;
+    background-color: #719998;
+}
+
+p{
+    font-family: Bebas Neue Pro;
+    font-weight: normal;
 }
 
 h1{
-    color: gray;
+    color: #F3FCEA;
     font-size: 4rem;
+    font-family: Bebas Neue Pro;
 }
 
-.big-orange {
-    color: gray;
-    font-size: 2rem;
+.body-response{
+    font-family: 'Times New Roman', Times, serif;
+    color: #112D23;
+}
 
+.pull-quote{
+    font-family: 'Times New Roman', Times, serif;
+    color: #112D23;
+
+}
+
+.my-information{
+    font-family: 'Times New Roman', Times, serif;
+    color: #112D23;
+    font-weight: bolder;
 }
 
 *:not(:first-child) { margin-block-start: 1em; }
-
-/* I feel like this piece really belongs in the larger conversation of design criticism... */
