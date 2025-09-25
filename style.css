@@ -1,7 +1,35 @@
 body{
     color: #F3FCEA;
-    padding: 3rem;
+    padding: 2rem;
     background-color: #719998;
+    margin: 2rem;
+}
+
+.kode-mono{
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #112D23;
+  font-size: 2rem;
+}
+
+.kode-mono-pullquote{
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #112D23;
+  font-size: 4rem;
+}
+
+.kode-mono-myinformation{
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #112D23;
+  font-size: 1.5rem;
 }
 
 p{
@@ -9,27 +37,18 @@ p{
     font-weight: normal;
 }
 
+h3{
+        font-family: Bebas Neue Pro;
+}
+
 h1{
     color: #F3FCEA;
-    font-size: 4rem;
+    font-size: 8.8rem;
     font-family: Bebas Neue Pro;
 }
 
-.body-response{
-    font-family: 'Times New Roman', Times, serif;
-    color: #112D23;
-}
 
-.pull-quote{
-    font-family: 'Times New Roman', Times, serif;
-    color: #112D23;
 
-}
 
-.my-information{
-    font-family: 'Times New Roman', Times, serif;
-    color: #112D23;
-    font-weight: bolder;
-}
 
-*:not(:first-child) { margin-block-start: 1em; }
+/* *:not(:first-child) { margin-block-start: 1em; } */
