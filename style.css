@@ -1,3 +1,4 @@
+/***** GLOBAL STYLES / IMPORTANT NFORMATION TO REFERENCE ***/
 body{
   color: #F3FCEA;
   padding: 2rem;
@@ -29,8 +30,16 @@ h1{
 
 
 
+
+
+
+
+
+
 /************ THIS IS ALL MY RESPONSE CSS ***************/
+
 .kode-mono{
+  /* THIS IS MY RESPONSE REGULARLY */
   font-family: "Kode Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -43,6 +52,7 @@ h1{
 }
 
 .kode-mono-pullquote{
+  /* THIS IS MY RESPONSE'S PULL QUOTE */
   font-family: "Kode Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -52,6 +62,7 @@ h1{
 }
 
 .kode-mono-myinformation{
+  /* THIS IS MY NAME AND DATE I WROTE MY RESPONSE */
   font-family: "Kode Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -103,12 +114,20 @@ em{
 
 
 
-/* FOOTER */
+
+
+
+
+
+/*************** FOOTER ***************/
 small{
   font-family: "Kode Mono";
   word-spacing: 0.3rem;
   color: bisque;
 }
+
+
+
 
 
 
