@@ -1,17 +1,45 @@
 body{
-    color: #F3FCEA;
-    padding: 2rem;
-    background-color: #719998;
-    margin: 2rem;
+  color: #F3FCEA;
+  padding: 2rem;
+  background-color: #719998;
+  margin: 2rem;
 }
 
+p{
+  font-family: "bebas-neue-pro";
+  font-weight: 300;
+  padding-block: 2rem;
+  font-size: 2rem;
+  line-height: 2.6rem;  
+}
+
+.line{
+  font-weight: bolder;
+  color: #112D23;
+  padding-inline-start: 31rem;
+}
+
+h1{
+    color: #F3FCEA;
+    font-size: 8.8rem;
+    font-family: "bebas-neue-pro";
+    font-weight: 900;
+}
+
+
+
+
+/************ THIS IS ALL MY RESPONSE CSS ***************/
 .kode-mono{
   font-family: "Kode Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   color: #112D23;
-  font-size: 2rem;
+  font-size: 2.4rem;
+  padding-inline-start: 31rem;
+  line-height: 3.2rem;
+
 }
 
 .kode-mono-pullquote{
@@ -32,21 +60,50 @@ body{
   font-size: 1.5rem;
 }
 
-p{
-    font-family: Bebas Neue Pro;
-    font-weight: normal;
+
+
+
+
+
+
+/********* THIS IS ALL THE READING'S CSS ******************/
+
+.author{
+  /* THIS IS THE AUTHOR'S NAME */
+  font-weight: 800;
+  display: inline-block;
+  /* inline-size: 32rem; */
+  margin-inline-end: 55rem;
 }
 
-h3{
-        font-family: Bebas Neue Pro;
+.date, .source{
+  /* THIS IS THE DATE, AND SOURCE OF THE READING */
+  display: inline-block;
+  inline-size: 15rem;
+  font-weight: 500;
 }
 
-h1{
-    color: #F3FCEA;
-    font-size: 8.8rem;
-    font-family: Bebas Neue Pro;
+.first-paragraph{
+  /* THIS IS THE FIRST PARAGRAPH, ALIGNED TO THE LEFT, SO IT'S DIFFERENT THAN THE REST*/
+  padding-inline-end: 47rem;
+  padding-block-start: 24rem;
+  font-weight: 300;
+  font-style: normal;
 }
 
+.other-paragraphs{
+  /* THIS IS THE REST OF THE PARAGRAPHS, ALIGNED TO THE RIGHT */
+  padding-inline-start: 31rem;
+}
+
+
+em{
+  font-weight: 600;
+}
+
+
+
+/* FOOTER */
 small{
   font-family: "Kode Mono";
   word-spacing: 0.3rem;
@@ -55,4 +112,4 @@ small{
 
 
 
-*:not(:first-child) { margin-block-start: 1em; }
+/* *:not(:first-child) { margin-block-start: 1em; } */
