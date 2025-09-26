@@ -47,8 +47,12 @@ h1{
     font-family: Bebas Neue Pro;
 }
 
+small{
+  font-family: "Kode Mono";
+  word-spacing: 0.3rem;
+  color: bisque;
+}
 
 
 
-
-/* *:not(:first-child) { margin-block-start: 1em; } */
+*:not(:first-child) { margin-block-start: 1em; }
