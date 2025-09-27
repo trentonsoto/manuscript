@@ -14,21 +14,24 @@ p{
   line-height: 2.6rem;  
 }
 
+h1{
+  color: #F3FCEA;
+  font-size: 8.8rem;
+  font-family: "bebas-neue-pro";
+  font-weight: 900;
+}
+
 .line{
   font-weight: bolder;
   color: #112D23;
   padding-inline-start: 31rem;
 }
 
-h1{
-    color: #F3FCEA;
-    font-size: 8.8rem;
-    font-family: "bebas-neue-pro";
-    font-weight: 900;
+.line2{
+  font-weight: bolder;
+  color: #112D23;
+  padding-block-end: 10rem;
 }
-
-
-
 
 
 
@@ -48,7 +51,6 @@ h1{
   font-size: 2.4rem;
   padding-inline-start: 31rem;
   line-height: 3.2rem;
-
 }
 
 .kode-mono-pullquote{
@@ -58,10 +60,36 @@ h1{
   font-weight: 500;
   font-style: normal;
   color: #112D23;
-  font-size: 4rem;
+  font-size: 7rem;
+  padding-block-start: 10rem;
 }
 
-.kode-mono-myinformation{
+.kode-mono-name{
+  font-weight: 800;
+  display: inline-block;
+  margin-inline-end: 55rem;
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #112D23;
+  font-size: 1.5rem;
+}
+
+.kode-mono-date, .kode-mono-year{
+  display: inline-block;
+  inline-size: 15rem;
+  font-weight: 500;
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #112D23;
+  font-size: 1.5rem;
+}
+
+
+.kode-mono-myinformation-solo{
   /* THIS IS MY NAME AND DATE I WROTE MY RESPONSE */
   font-family: "Kode Mono", monospace;
   font-optical-sizing: auto;
@@ -69,6 +97,7 @@ h1{
   font-style: normal;
   color: #112D23;
   font-size: 1.5rem;
+  padding-inline-start: 31rem;
 }
 
 
@@ -83,7 +112,6 @@ h1{
   /* THIS IS THE AUTHOR'S NAME */
   font-weight: 800;
   display: inline-block;
-  /* inline-size: 32rem; */
   margin-inline-end: 55rem;
 }
 
@@ -97,7 +125,7 @@ h1{
 .first-paragraph{
   /* THIS IS THE FIRST PARAGRAPH, ALIGNED TO THE LEFT, SO IT'S DIFFERENT THAN THE REST*/
   padding-inline-end: 47rem;
-  padding-block-start: 24rem;
+  padding-block-start: 19rem;
   font-weight: 300;
   font-style: normal;
 }
@@ -109,8 +137,10 @@ h1{
 
 
 em{
+  /* I DIDN"T KNOW I COULD HAVE <em> AS ITS OWN SECTION IN CSS, I WAS JUST PLAYING AROUND AND IT DID WHAT I NEEDED IT TO!!!!!!! */
   font-weight: 600;
 }
+
 
 
 
