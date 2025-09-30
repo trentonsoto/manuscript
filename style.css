@@ -22,12 +22,14 @@ h1{
 }
 
 .line{
+  /* THIS IS THE SHORTER LINE */
   font-weight: bolder;
   color: #112D23;
   padding-inline-start: 31rem;
 }
 
 .line2{
+  /* THIS IS THE LONGER LINE */
   font-weight: bolder;
   color: #112D23;
   padding-block-end: 10rem;
@@ -132,6 +134,15 @@ h1{
   font-weight: 300;
   font-style: normal;
 }
+
+
+.left-paragraph-end{
+  /* THIS IS THE FINAL PARAGRAPHS, ALIGNED TO THE LEFT*/
+  padding-inline-end: 40rem;
+  font-weight: 300;
+  font-style: normal;
+}
+
 
 .other-paragraphs{
   /* THIS IS THE REST OF THE PARAGRAPHS, ALIGNED TO THE RIGHT */
