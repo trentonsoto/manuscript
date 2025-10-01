@@ -1,4 +1,4 @@
-/***** GLOBAL STYLES / IMPORTANT NFORMATION TO REFERENCE ***/
+/** GLOBAL STYLES / IMPORTANT NFORMATION **/
 body{
   color: #F3FCEA;
   padding: 2rem;
@@ -21,6 +21,39 @@ h1{
   font-weight: 900;
 }
 
+em{
+  /* I DIDN"T KNOW I COULD HAVE <em> AS ITS OWN SECTION IN CSS, I WAS JUST PLAYING AROUND AND IT DID WHAT I NEEDED IT TO!!!!!!! */
+  font-weight: 600;}
+
+
+
+
+
+
+
+/**  HEADER  **/
+header{
+  .author{
+  font-weight: 800;
+  display: inline-block;
+  margin-inline-end: 55rem;
+  }
+
+  .date, .source{
+    display: inline-block;
+    inline-size: 15rem;
+    font-weight: 500;
+  }
+}
+
+
+
+
+
+
+
+
+/**  LINES  **/
 .line{
   /* THIS IS THE SHORTER LINE */
   font-weight: bolder;
@@ -35,13 +68,58 @@ h1{
   padding-block-end: 10rem;
 }
 
+.line3{
+  /* THIS IS THE LAST LINE LINE */
+  font-weight: bolder;
+  color: #F3FCEA;
+  padding-block-end: 5rem;
+}
 
 
 
 
 
 
-/************ THIS IS ALL MY RESPONSE CSS ***************/
+
+
+/**  THIS IS ALL MY RESPONSE CSS  **/
+
+
+.quote{
+  .pullquote{
+    /* THIS IS MY RESPONSE'S PULL QUOTE */
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #112D23;
+    font-size: 7rem;
+    padding-block-start: 10rem;
+    text-indent: -0.6em;
+    padding-inline-start: 1rem;
+  }
+
+  .my-name{
+    display: inline-block;
+    margin-inline-end: 55rem;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: #112D23;
+    font-size: 1.5rem;
+  }
+
+  .my-date, .my-year{
+    display: inline-block;
+    inline-size: 15rem;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    color: #112D23;
+    font-size: 1.5rem;
+  }
+}
+
+
 
 .kode-mono{
   /* THIS IS MY RESPONSE REGULARLY */
@@ -55,46 +133,23 @@ h1{
   line-height: 3.2rem;
 }
 
-.kode-mono-pullquote{
-  /* THIS IS MY RESPONSE'S PULL QUOTE */
+
+.kode-mono2{
+  /* THIS IS MY RESPONSE REGULARLY */
   font-family: "Kode Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   color: #112D23;
-  font-size: 7rem;
-  padding-block-start: 10rem;
-  text-indent: -0.6em;
-  padding-inline-start: 1rem;
+  font-size: 2.4rem;
+  /* padding-inline-end: 35rem; */
+  line-height: 3.2rem;
 
-}
-
-.kode-mono-name{
-  font-weight: 800;
-  display: inline-block;
-  margin-inline-end: 55rem;
-  font-family: "Kode Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  color: #112D23;
-  font-size: 1.5rem;
-}
-
-.kode-mono-date, .kode-mono-year{
-  display: inline-block;
-  inline-size: 15rem;
-  font-weight: 500;
-  font-family: "Kode Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  color: #112D23;
-  font-size: 1.5rem;
+  /* :not(:first-child){padding-block-end: 100rem;} */
 }
 
 
-.kode-mono-myinformation-solo{
+.myname-solo{
   /* THIS IS MY NAME AND DATE I WROTE MY RESPONSE */
   font-family: "Kode Mono", monospace;
   font-optical-sizing: auto;
@@ -111,49 +166,45 @@ h1{
 
 
 
-/********* THIS IS ALL THE READING'S CSS ******************/
 
-.author{
-  /* THIS IS THE AUTHOR'S NAME */
-  font-weight: 800;
-  display: inline-block;
-  margin-inline-end: 55rem;
-}
 
-.date, .source{
-  /* THIS IS THE DATE, AND SOURCE OF THE READING */
-  display: inline-block;
-  inline-size: 15rem;
-  font-weight: 500;
-}
 
-.first-paragraph{
-  /* THIS IS THE FIRST PARAGRAPH, ALIGNED TO THE LEFT, SO IT'S DIFFERENT THAN THE REST*/
-  padding-inline-end: 47rem;
-  padding-block-start: 19rem;
-  font-weight: 300;
-  font-style: normal;
+
+/**  THIS IS ALL THE READING'S CSS  **/
+
+
+.reading{
+  p:first-child{
+    padding-inline-end: 47rem;
+    padding-block-start: 19rem;
+    font-weight: 300;
+    font-style: normal;
+  } 
+
+  .other-paragraphs{
+    /* THIS IS THE REST OF THE PARAGRAPHS, ALIGNED TO THE RIGHT */
+    padding-inline-start: 31rem;
+  }
 }
 
 
-.left-paragraph-end{
-  /* THIS IS THE FINAL PARAGRAPHS, ALIGNED TO THE LEFT*/
+.reading-wide-right{
+  p{
+    padding-inline-start: 31rem;
+    }
+}
+
+
+.reading-wide-left{
   padding-inline-end: 40rem;
   font-weight: 300;
   font-style: normal;
 }
 
 
-.other-paragraphs{
-  /* THIS IS THE REST OF THE PARAGRAPHS, ALIGNED TO THE RIGHT */
-  padding-inline-start: 31rem;
-}
 
 
-em{
-  /* I DIDN"T KNOW I COULD HAVE <em> AS ITS OWN SECTION IN CSS, I WAS JUST PLAYING AROUND AND IT DID WHAT I NEEDED IT TO!!!!!!! */
-  font-weight: 600;
-}
+
 
 
 
