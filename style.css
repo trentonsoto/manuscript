@@ -70,7 +70,7 @@ header{
 	/* THIS IS THE LONGER LINE */
 	font-weight: bolder;
 	color: #112D23;
-	padding-block-end: 10rem;
+	padding-block-end: 1rem;
 }
 
 .line3{
@@ -86,11 +86,14 @@ header{
 
 
 
-
 /**  THIS IS ALL MY RESPONSE CSS  **/
 
 
 .quote{
+
+	p:first-child{
+		padding-block-end: 0%;
+	}
 	.pullquote{
 		/* THIS IS MY RESPONSE'S PULL QUOTE */
 		font-family: "Kode Mono", monospace;
@@ -99,14 +102,15 @@ header{
 		font-style: normal;
 		color: #112D23;
 		font-size: 7rem;
-		padding-block-start: 10rem;
+		padding-block-start: 6rem;
 		text-indent: -0.6em;
 		padding-inline-start: 1%;
 	}
 
 	.my-name{
 		display: inline-block;
-		margin-inline-end: 55%;
+		/* margin-inline-end: 55%; */
+		margin-inline-end: 5%;
 		font-family: "Kode Mono", monospace;
 		font-optical-sizing: auto;
 		font-weight: 500;
@@ -167,6 +171,9 @@ header{
 
 
 
+.final-response{
+	padding-block-end: 10rem;
+}
 
 
 
@@ -201,9 +208,11 @@ header{
 
 
 .reading-wide-left{
-	padding-inline-end: 40rem;
+	padding-inline-end: 45%;
 	font-weight: 300;
 	font-style: normal;
+	padding-block-end: 3rem;
+	padding-block-start: 5rem;
 }
 
 
@@ -224,8 +233,15 @@ small{
 	font-family: "Kode Mono";
 	word-spacing: 0.3rem;
 	color: bisque;
+	padding-inline-end: 39%;
 }
 
+button{
+	display: inline-block;
+	color: #112D23;
+	font-family: "Kode Mono";
+	font-weight: 800;
+}
 
 
 
