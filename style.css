@@ -1,29 +1,31 @@
 /** GLOBAL STYLES / IMPORTANT NFORMATION **/
 body{
-  color: #F3FCEA;
-  padding: 2rem;
-  background-color: #719998;
-  margin: 2rem;
+	color: #EBE9E1;
+	padding: 2rem;
+	background-color: #719998;
+	margin: 2rem;
 }
 
 p{
-  font-family: "bebas-neue-pro";
-  font-weight: 300;
-  padding-block: 2rem;
-  font-size: 2rem;
-  line-height: 2.6rem;  
+	font-family: "bebas-neue-pro";
+	font-weight: 300;
+	padding-block: 2rem;
+	font-size: 2rem;
+	line-height: 2.6rem;  
 }
 
 h1{
-  color: #F3FCEA;
-  font-size: 8.8rem;
-  font-family: "bebas-neue-pro";
-  font-weight: 900;
+	color: beige;
+	font-size: 8.8rem;
+	font-family: "bebas-neue-pro";
+	font-weight: 900;
 }
 
 em{
-  /* I DIDN"T KNOW I COULD HAVE <em> AS ITS OWN SECTION IN CSS, I WAS JUST PLAYING AROUND AND IT DID WHAT I NEEDED IT TO!!!!!!! */
-  font-weight: 600;}
+	/* I DIDN"T KNOW I COULD HAVE <em> AS ITS OWN SECTION IN CSS, I WAS JUST PLAYING AROUND AND IT DID WHAT I NEEDED IT TO!!!!!!! */
+	font-weight: 600;
+	color: beige;
+}
 
 
 
@@ -33,17 +35,20 @@ em{
 
 /**  HEADER  **/
 header{
-  .author{
-  font-weight: 800;
-  display: inline-block;
-  margin-inline-end: 55rem;
-  }
+	color: beige;
+	line-height: 6rem;
 
-  .date, .source{
-    display: inline-block;
-    inline-size: 15rem;
-    font-weight: 500;
-  }
+	.author{
+	font-weight: 800;
+	display: inline-block;
+	margin-inline-end: 5%;
+	}
+
+	.date, .source{
+		display: inline-block;
+		inline-size: 12rem;
+		font-weight: 500;
+	}
 }
 
 
@@ -55,24 +60,24 @@ header{
 
 /**  LINES  **/
 .line{
-  /* THIS IS THE SHORTER LINE */
-  font-weight: bolder;
-  color: #112D23;
-  padding-inline-start: 31rem;
+	/* THIS IS THE SHORTER LINE */
+	font-weight: bolder;
+	color: #112D23;
+	padding-inline-start: 32%;
 }
 
 .line2{
-  /* THIS IS THE LONGER LINE */
-  font-weight: bolder;
-  color: #112D23;
-  padding-block-end: 10rem;
+	/* THIS IS THE LONGER LINE */
+	font-weight: bolder;
+	color: #112D23;
+	padding-block-end: 10rem;
 }
 
 .line3{
-  /* THIS IS THE LAST LINE LINE */
-  font-weight: bolder;
-  color: #F3FCEA;
-  padding-block-end: 5rem;
+	/* THIS IS THE LAST LINE */
+	font-weight: bolder;
+	color: #F3FCEA;
+	padding-block-end: 5rem;
 }
 
 
@@ -86,78 +91,78 @@ header{
 
 
 .quote{
-  .pullquote{
-    /* THIS IS MY RESPONSE'S PULL QUOTE */
-    font-family: "Kode Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    color: #112D23;
-    font-size: 7rem;
-    padding-block-start: 10rem;
-    text-indent: -0.6em;
-    padding-inline-start: 1rem;
-  }
+	.pullquote{
+		/* THIS IS MY RESPONSE'S PULL QUOTE */
+		font-family: "Kode Mono", monospace;
+		font-optical-sizing: auto;
+		font-weight: 500;
+		font-style: normal;
+		color: #112D23;
+		font-size: 7rem;
+		padding-block-start: 10rem;
+		text-indent: -0.6em;
+		padding-inline-start: 1%;
+	}
 
-  .my-name{
-    display: inline-block;
-    margin-inline-end: 55rem;
-    font-family: "Kode Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    color: #112D23;
-    font-size: 1.5rem;
-  }
+	.my-name{
+		display: inline-block;
+		margin-inline-end: 55%;
+		font-family: "Kode Mono", monospace;
+		font-optical-sizing: auto;
+		font-weight: 500;
+		color: #112D23;
+		font-size: 1.5rem;
+	}
 
-  .my-date, .my-year{
-    display: inline-block;
-    inline-size: 15rem;
-    font-family: "Kode Mono", monospace;
-    font-optical-sizing: auto;
-    color: #112D23;
-    font-size: 1.5rem;
-  }
+	.my-date, .my-year{
+		display: inline-block;
+		inline-size: 15rem;
+		font-family: "Kode Mono", monospace;
+		font-optical-sizing: auto;
+		color: #112D23;
+		font-size: 1.5rem;
+	}
 }
 
 
 
 .kode-mono{
-  /* THIS IS MY RESPONSE REGULARLY */
-  font-family: "Kode Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  color: #112D23;
-  font-size: 2.4rem;
-  padding-inline-start: 31rem;
-  line-height: 3.2rem;
+	/* THIS IS MY RESPONSE REGULARLY */
+	font-family: "Kode Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	color: #112D23;
+	font-size: 2.4rem;
+	padding-inline-start: 32%;
+	line-height: 3.5rem;
 }
 
 
 .kode-mono2{
-  /* THIS IS MY RESPONSE REGULARLY */
-  font-family: "Kode Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  color: #112D23;
-  font-size: 2.4rem;
-  /* padding-inline-end: 35rem; */
-  line-height: 3.2rem;
+	/* THIS IS THE REST OF MY RESPONSE */
+	font-family: "Kode Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	color: #112D23;
+	font-size: 2.4rem;
+	/* padding-inline-end: 35rem; */
+	line-height: 3.5rem;
 
-  /* :not(:first-child){padding-block-end: 100rem;} */
+	/* :not(:first-child){padding-block-end: 100rem;} */
 }
 
 
 .myname-solo{
-  /* THIS IS MY NAME AND DATE I WROTE MY RESPONSE */
-  font-family: "Kode Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  color: #112D23;
-  font-size: 1.5rem;
-  padding-inline-start: 31rem;
+	/* THIS IS MY NAME AND DATE I WROTE MY RESPONSE */
+	font-family: "Kode Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	color: #112D23;
+	font-size: 1.5rem;
+	padding-inline-start: 32%;
 }
 
 
@@ -174,31 +179,31 @@ header{
 
 
 .reading{
-  p:first-child{
-    padding-inline-end: 47rem;
-    padding-block-start: 19rem;
-    font-weight: 300;
-    font-style: normal;
-  } 
+	p:first-child{
+		padding-inline-end: 47rem;
+		padding-block-start: 22.5rem;
+		font-weight: 300;
+		font-style: normal;
+	} 
 
-  .other-paragraphs{
-    /* THIS IS THE REST OF THE PARAGRAPHS, ALIGNED TO THE RIGHT */
-    padding-inline-start: 31rem;
-  }
+	.other-paragraphs{
+		/* THIS IS THE REST OF THE PARAGRAPHS, ALIGNED TO THE RIGHT */
+		padding-inline-start: 31rem;
+	}
 }
 
 
 .reading-wide-right{
-  p{
-    padding-inline-start: 31rem;
-    }
+	p{
+		padding-inline-start: 31rem;
+		}
 }
 
 
 .reading-wide-left{
-  padding-inline-end: 40rem;
-  font-weight: 300;
-  font-style: normal;
+	padding-inline-end: 40rem;
+	font-weight: 300;
+	font-style: normal;
 }
 
 
@@ -216,9 +221,9 @@ header{
 
 /*************** FOOTER ***************/
 small{
-  font-family: "Kode Mono";
-  word-spacing: 0.3rem;
-  color: bisque;
+	font-family: "Kode Mono";
+	word-spacing: 0.3rem;
+	color: bisque;
 }
 
 
