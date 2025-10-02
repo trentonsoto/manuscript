@@ -233,7 +233,8 @@ small{
 	font-family: "Kode Mono";
 	word-spacing: 0.3rem;
 	color: bisque;
-	padding-inline-end: 39%;
+	padding-inline-end: 27%;
+	font-size: 1.3rem;
 }
 
 button{
