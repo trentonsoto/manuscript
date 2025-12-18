@@ -1,8 +1,14 @@
 /** GLOBAL STYLES / IMPORTANT NFORMATION **/
+:root{
+	--primarytext-color: beige;
+	--bodytext-color: #ebe9e1;
+	--background-color: #719998;
+}
+
 body{
-	color: #EBE9E1;
+	color: var(--bodytext-color);
+	background-color: var(--background-color);
 	padding: 2rem;
-	background-color: #719998;
 	margin: 2rem;
 }
 
@@ -14,20 +20,10 @@ p{
 	line-height: 2.6rem;  
 }
 
-h1{
-	color: beige;
-	font-size: 8.8rem;
-	font-family: "bebas-neue-pro";
-	font-weight: 900;
-}
-
 em{
 	font-weight: 600;
-	color: beige;
+	color: var(--primarytext-color);
 }
-
-
-
 
 
 
@@ -36,61 +32,31 @@ em{
 header{
 	color: beige;
 	line-height: 6rem;
-
-	.author{
-	font-weight: 800;
-	display: inline-block;
-	margin-inline-end: 5%;
+	
+	.author, .date, .source{
+		display: inline-block;
 	}
 
+	h1{
+		font-size: 8.8rem;
+		font-family: "bebas-neue-pro";
+		font-weight: 900;
+	}
+	.author{
+		margin-inline-end: 5%;
+		font-weight: 800;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
 	.date, .source{
-		display: inline-block;
 		inline-size: 12rem;
 		font-weight: 500;
 	}
 }
 
 
-
-
-
-
-
-
-/**  LINES  **/
-.line{
-	/* THIS IS THE SHORTER LINE */
-	font-weight: bolder;
-	color: #112D23;
-	padding-inline-start: 32%;
-}
-
-.line2{
-	/* THIS IS THE LONGER LINE */
-	font-weight: bolder;
-	color: #112D23;
-	padding-block-end: 1rem;
-}
-
-.line3{
-	/* THIS IS THE LAST LINE */
-	font-weight: bolder;
-	color: #F3FCEA;
-	padding-block-end: 5rem;
-}
-
-
-
-
-
-
-
-
-
-
-/**  THIS IS ALL THE READING'S CSS  **/
-
-
+/**  READING  **/
 .reading{
 	.pilot{
 		padding-inline-end: 47rem;
@@ -167,16 +133,7 @@ header{
 
 
 
-
-
-
-
-
-
-
-
-
-/*************** FOOTER ***************/
+/**  FOOTER  **/
 small{
 	font-family: "Kode Mono";
 	word-spacing: 0.3rem;
@@ -191,9 +148,3 @@ button{
 	font-family: "Kode Mono";
 	font-weight: 800;
 }
-
-
-
-
-
-/* *:not(:first-child) { margin-block-start: 1em; } */
