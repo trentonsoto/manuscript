@@ -31,19 +31,19 @@ em{
 /**  HEADER  **/
 header{
 	color: beige;
-	line-height: 6rem;
-	
+	text-align: center;
+
 	.author, .date, .source{
 		display: inline-block;
+		margin-inline: 1.5rem;
 	}
-
 	h1{
-		font-size: 8.8rem;
+		font-size: 15.8rem;
 		font-family: "bebas-neue-pro";
 		font-weight: 900;
+		line-height: 15rem;
 	}
 	.author{
-		margin-inline-end: 5%;
 		font-weight: 800;
 		&:hover{
 			text-decoration: underline;
@@ -60,7 +60,7 @@ header{
 .reading{
 	.pilot{
 		padding-inline-end: 47rem;
-		padding-block-start: 22.5rem;
+		padding-block-start: 9rem;
 		font-weight: 300;
 		font-style: normal;
 	} 
@@ -81,9 +81,9 @@ header{
 			font-weight: 500;
 			font-style: normal;
 			color: #112D23;
-			font-size: 2.4rem;
+			font-size: 2rem;
 			padding-inline-start: 32%;
-			line-height: 3.5rem;
+			line-height: 3rem;
 		}
 	}
 	.pullquote{
