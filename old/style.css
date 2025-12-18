@@ -22,6 +22,7 @@ h1{
 }
 
 em{
+	/* I DIDN"T KNOW I COULD HAVE <em> AS ITS OWN SECTION IN CSS, I WAS JUST PLAYING AROUND AND IT DID WHAT I NEEDED IT TO!!!!!!! */
 	font-weight: 600;
 	color: beige;
 }
@@ -85,40 +86,13 @@ header{
 
 
 
+/**  THIS IS ALL MY RESPONSE CSS  **/
 
 
+.quote{
 
-/**  THIS IS ALL THE READING'S CSS  **/
-
-
-.reading{
-	.pilot{
-		padding-inline-end: 47rem;
-		padding-block-start: 22.5rem;
-		font-weight: 300;
-		font-style: normal;
-	} 
-	.right{
-		padding-inline-start: 31rem;
-	}
-	.left{
-		padding-inline-end: 45%;
-		font-weight: 300;
-		font-style: normal;
-		padding-block-end: 3rem;
-		padding-block-start: 5rem;
-	}
-	.response{
-		p{
-			font-family: "Kode Mono", monospace;
-			font-optical-sizing: auto;
-			font-weight: 500;
-			font-style: normal;
-			color: #112D23;
-			font-size: 2.4rem;
-			padding-inline-start: 32%;
-			line-height: 3.5rem;
-		}
+	p:first-child{
+		padding-block-end: 0%;
 	}
 	.pullquote{
 		/* THIS IS MY RESPONSE'S PULL QUOTE */
@@ -132,6 +106,7 @@ header{
 		text-indent: -0.6em;
 		padding-inline-start: 1%;
 	}
+
 	.my-name{
 		display: inline-block;
 		/* margin-inline-end: 55%; */
@@ -142,6 +117,7 @@ header{
 		color: #112D23;
 		font-size: 1.5rem;
 	}
+
 	.my-date, .my-year{
 		display: inline-block;
 		inline-size: 15rem;
@@ -150,6 +126,35 @@ header{
 		color: #112D23;
 		font-size: 1.5rem;
 	}
+}
+
+
+
+.kode-mono{
+	/* THIS IS MY RESPONSE REGULARLY */
+	font-family: "Kode Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	color: #112D23;
+	font-size: 2.4rem;
+	padding-inline-start: 32%;
+	line-height: 3.5rem;
+}
+
+
+.kode-mono2{
+	/* THIS IS THE REST OF MY RESPONSE */
+	font-family: "Kode Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	color: #112D23;
+	font-size: 2.4rem;
+	/* padding-inline-end: 35rem; */
+	line-height: 3.5rem;
+
+	/* :not(:first-child){padding-block-end: 100rem;} */
 }
 
 
@@ -163,6 +168,53 @@ header{
 	font-size: 1.5rem;
 	padding-inline-start: 32%;
 }
+
+
+
+.final-response{
+	padding-block-end: 10rem;
+}
+
+
+
+
+
+
+
+
+/**  THIS IS ALL THE READING'S CSS  **/
+
+
+.reading{
+	p:first-child{
+		padding-inline-end: 47rem;
+		padding-block-start: 22.5rem;
+		font-weight: 300;
+		font-style: normal;
+	} 
+
+	.other-paragraphs{
+		/* THIS IS THE REST OF THE PARAGRAPHS, ALIGNED TO THE RIGHT */
+		padding-inline-start: 31rem;
+	}
+}
+
+
+.reading-wide-right{
+	p{
+		padding-inline-start: 31rem;
+		}
+}
+
+
+.reading-wide-left{
+	padding-inline-end: 45%;
+	font-weight: 300;
+	font-style: normal;
+	padding-block-end: 3rem;
+	padding-block-start: 5rem;
+}
+
 
 
 
