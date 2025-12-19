@@ -145,3 +145,91 @@ footer a{
 footer a:hover{
 	text-decoration: underline;
 }
+
+
+
+
+
+
+@media (max-width:500px){
+	body{
+		margin: 1rem;
+		padding: 0.5rem;
+	}
+	p{
+		padding-block: 1.5rem;
+		font-size: 1.3rem;
+		line-height: 1.8rem;  
+	}
+	header{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	.author, .date, .source{
+		display: block;
+		margin-inline: 0;
+		padding: 0.5rem;
+	}
+	h1{
+		font-size: 4.8rem;
+		line-height: 5rem;
+		margin-block: 3rem 1rem;
+	}
+	}
+	.reading{
+		.pilot{
+			width: 100%;
+			padding-inline-end: 0rem;
+			/* padding-block-start: 9rem; */
+			font-weight: 300;
+			font-style: normal;
+			padding-block-start: 2rem;
+		} 
+	.right{
+		padding-inline-start: 0;
+	}
+	.left{
+		padding-inline-end: 5%;
+		padding-block-end: 3rem;
+		padding-block-start: 5rem;
+	}
+	.response{
+		p:not(.my-name):not(.my-date){
+			font-weight: 500;
+			font-size: 1.2rem;
+			padding-inline-start: 2%;
+			line-height: 1.8rem;
+		}
+		.my-stuff{
+			padding-inline-start: 2%;
+		}
+	}
+	.pullquote{
+		font-size: 3rem;
+		padding-block-start: 6rem;
+		text-indent: -0.1em;
+		padding-inline-start: 1%;
+	}
+
+	.my-name, .my-date{
+		display: grid;
+		font-weight: 500;
+		font-size: 1.5rem;
+		align-items: center;
+	}
+	.my-name{
+		margin-inline-end: 5%;
+	}
+	.my-date{
+		inline-size: 15rem;
+	}
+}
+
+small{
+	word-spacing: 0.5rem;
+	padding-inline-end: 27%;
+	font-size: 1rem;
+}
+
+}
