@@ -3,6 +3,7 @@
 	--primarytext-color: beige;
 	--bodytext-color: #ebe9e1;
 	--background-color: #719998;
+	--response-color: #112D23;
 }
 
 body{
@@ -35,7 +36,7 @@ header{
 
 	.author, .date, .source{
 		display: inline-block;
-		margin-inline: 1.5rem;
+		margin-inline: 6.5rem;
 	}
 	h1{
 		font-size: 15.8rem;
@@ -75,7 +76,7 @@ header{
 		padding-block-start: 5rem;
 	}
 	.response{
-		p{
+		p:not(.my-name):not(.my-date){
 			font-family: "Kode Mono", monospace;
 			font-optical-sizing: auto;
 			font-weight: 500;
@@ -84,6 +85,9 @@ header{
 			font-size: 2rem;
 			padding-inline-start: 32%;
 			line-height: 3rem;
+		}
+		.my-stuff{
+			padding-inline-start: 32%;
 		}
 	}
 	.pullquote{
@@ -98,36 +102,22 @@ header{
 		text-indent: -0.6em;
 		padding-inline-start: 1%;
 	}
-	.my-name{
+
+	.my-name, .my-date{
 		display: inline-block;
+		font-family: "Kode Mono", monospace;
+		/* font-optical-sizing: auto; */
+		font-weight: 500;
+		color: var(--response-color);
+		font-size: 1.5rem;
+	}
+	.my-name{
 		/* margin-inline-end: 55%; */
 		margin-inline-end: 5%;
-		font-family: "Kode Mono", monospace;
-		font-optical-sizing: auto;
-		font-weight: 500;
-		color: #112D23;
-		font-size: 1.5rem;
 	}
-	.my-date, .my-year{
-		display: inline-block;
+	.my-date{
 		inline-size: 15rem;
-		font-family: "Kode Mono", monospace;
-		font-optical-sizing: auto;
-		color: #112D23;
-		font-size: 1.5rem;
 	}
-}
-
-
-.myname-solo{
-	/* THIS IS MY NAME AND DATE I WROTE MY RESPONSE */
-	font-family: "Kode Mono", monospace;
-	font-optical-sizing: auto;
-	font-weight: 500;
-	font-style: normal;
-	color: #112D23;
-	font-size: 1.5rem;
-	padding-inline-start: 32%;
 }
 
 
