@@ -60,7 +60,8 @@ header{
 /**  READING  **/
 .reading{
 	.pilot{
-		padding-inline-end: 47rem;
+		width: 55%;
+		/* padding-inline-end: 47rem; */
 		padding-block-start: 9rem;
 		font-weight: 300;
 		font-style: normal;
@@ -81,7 +82,7 @@ header{
 			font-optical-sizing: auto;
 			font-weight: 500;
 			font-style: normal;
-			color: #112D23;
+			color: var(--response-color);
 			font-size: 2rem;
 			padding-inline-start: 32%;
 			line-height: 3rem;
@@ -127,14 +128,20 @@ header{
 small{
 	font-family: "Kode Mono";
 	word-spacing: 0.3rem;
-	color: bisque;
+	color: var(--primarytext-color);
 	padding-inline-end: 27%;
 	font-size: 1.3rem;
 }
 
-button{
+footer a{
+	margin-block-start: 7rem;
+	color: var(--primarytext-color);
 	display: inline-block;
-	color: #112D23;
+	color: var(--primarytext-color);
 	font-family: "Kode Mono";
 	font-weight: 800;
+	}
+	
+footer a:hover{
+	text-decoration: underline;
 }
